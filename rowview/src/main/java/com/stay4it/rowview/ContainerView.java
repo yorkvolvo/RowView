@@ -38,6 +38,7 @@ public class ContainerView extends LinearLayout {
         setOrientation(VERTICAL);
     }
 
+    //
     public void initializeData(ArrayList<GroupDescriptor> descriptors, OnRowChangedListener listener) {
         this.descriptors = descriptors;
         this.listener = listener;
