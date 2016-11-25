@@ -15,6 +15,7 @@ import android.content.Context;
  * dp、sp 转换为 px 的工具类
  */
 public class DisplayUtil {
+
     /**
      * 将px值转换为dip或dp值，保证尺寸大小不变
      *
